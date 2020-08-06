@@ -1,0 +1,58 @@
+div{
+    background-color: red;
+    color: blue;
+}
+/*
+NESTED SELECTOR
+*/
+div p{
+    background-color: burlywood;
+    color: crimson;
+}
+/*
+ID SELECTOR
+*/
+#p1{
+    text-align: justify;
+}
+
+div #p1{  /*ID WHICH IS INSIDE DIV*/
+    text-align: right; 
+}
+div,p,span,table{
+    border: 2px solid brown;
+}
+/*
+UNIVERSAL SELECTOR
+*/
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*
+ELEMENT SELECTOR
+*/
+p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.c1{
+    background-color: cyan;
+    color: darkgreen;
+    font-family: monospace;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+/* body{
+    background-image: url("../FI\ -\ LnD\ Batch\ Repository\ -\ GET-846/");
+} */
+
+
+/* div.first { in division class first
+    opacity: 0.1;
+  } */

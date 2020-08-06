@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTI - Larsen & Toubro Infotech</title>
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome to LTI</h1>
+    </div>
+    <div class="topnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><img src="../FI - LnD Batch Repository - GET-846/Web/images/lti.jpg"
+                    style="float: right; padding-right: 20px; height:50px"></li>
+        </ul>
+    </div>
+
+    <div class="row">
+        <div class="main">
+            <div class="card">
+                <h2 style="text-align: center;">Register to explore amazing career opportunities</h2>
+            <!-- <form onsubmit="validate()"> -->
+            <form >
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+              
+                  <label for="email"><b>E-mail Address</b></label>
+                  <input type="email" placeholder="Enter Email Address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+              
+                  <label for="city"><b>City</b></label>
+                  <input type="text" placeholder="Enter City" name="city" required>
+              
+                  <label for="mobile"><b>Mobile No.</b></label>
+                  <input type="tel" placeholder="Enter Mobile Number" onkeypress ="validate1();" id="mobile" required>
+                  <span id="mbError" style="color:red"></span>  
+                  <!-- on submit event Assingment -->
+                  <button type="submit">Register</button>
+                </div>
+              </form>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2020 Larsen & Toubro Infotech Limited</p>
+    </div>
+</body>
+
+</html>

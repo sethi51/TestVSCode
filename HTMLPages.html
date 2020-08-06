@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web</title>
+    <!-- <style> 
+        div{
+            background-color: darkblue;
+            color: darkred;
+        }
+    </style> -->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+</head>
+
+<body>
+    <b style="background-color: rgb(119, 45, 189); color: darkgoldenrod;"> Hello LTI!</b> <!--inline css-->
+    <p style="background-color: coral;">This is my first web page</p> <!--inline css-->
+    <div style="background-color: #6b0303;"><b>This is <div style="background-color: inherit;">This is nested div</div> div1</b></div> <!--inline css-->
+    <!--Will make it go in another line-->
+    <div><b>This is <span>This is <i>nested</i> div</span> div1</b></div>
+    <!--Inline element-->
+    <div>This is <em>div2</em></div>
+    <!--em vs i: READ YOURSELF, ALSO b vs strong-->
+    <strong>This is strong information</strong><br>
+    <!--Will show that this is of strong importance-->
+    <!--Inline element-->
+    <!-- <img src="../CountNonDivisible.png" alt="Image Not Found" width="400px" height="400px"> -->
+    <!--NO CLOSING TAG: BECAUSE THERE IS NO TEXT IN THIS-->
+    <img src="../FI - LnD Batch Repository - GET-846/Web/images/ceo.jpg" alt="Not found" width="200px" height="200px"/>
+    <!--Alt+Shift+F-->
+
+
+    <div id="div1">
+        Embedded Style applied in div1.
+    </div>
+    <div id="div2">
+        Embedded Style applied in div2.
+    </div>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>UserName</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>pass@123</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>pass@123</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>User Credentials</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+
+
+    <p>Recipes</p>
+    <ul type="circle">
+        <li>ABC</li>
+        <li>DEF</li>
+        <li>GHI</li>
+    </ul>
+    
+    <p>Recipes 2</p>
+    <ol type="I">
+        <li>ABC</li>
+        <li>DEF</li>
+        <li>GHI</li>
+    </ol>
+
+
+
+    <div>
+        <p id="p1">This is paragraph1 is in div</p>
+        <p>This is paragraph2 in div</p>
+    </div>
+    <p id="p1">This is paragraph3 is outside div</p><!--WHEN YOU TRY TO FETCH THE ELEMENT IT WILL FETCH THE FIRST ELEMENT OF SAME ID-->
+    <span>
+        This is span
+    </span>
+
+    <div>
+        <p class="c1">Paragraph class 1</p>
+        <p class="c2">Paragraph class 2</p>
+        <p class="c1">Paragraph class 1</p>
+        <p class="c1">Paragraph class 1</p>
+        <p class="c2">Paragraph class 2</p>
+        <p class="c2">Paragraph class 2</p>
+    </div>
+</body>
+
+</html>

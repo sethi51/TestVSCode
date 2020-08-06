@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" type="text/css" href="style1.css"/>
+</head>
+
+<body>
+    <form id="registerForm" >
+        <!--ID is like primary key. There can't be any other form with the same name. There is NAME also but we dont use beacuse we can have same name of two forms-->
+        
+        <table align="center">
+            <tr>
+                <!-- <td>
+                    <label for="firstName">First Name</label>
+                </td> -->
+                <td><input type="text" id="FirstName" placeholder="Enter First Name"/></td>           <!-- AFTER ID value="Abhi" -->
+            </tr>
+            
+            <tr>
+                <!-- <td>
+                    <label for="lastName">Last Name</label>
+                </td> -->
+                <td><input type="text" id="LastName" placeholder="Enter Last Name"/></td>
+            </tr>
+
+            <tr>
+                <!-- <td>
+                    <label for="age">Age</label>
+                </td> -->
+                <td><input type="number" id="age" placeholder="Enter Age"/></td>
+            </tr>
+
+            <tr>
+                <!-- <td>
+                    <label for="dob"> Date Of Birth </label>
+                </td> -->
+                <td><input type="date" id="dob" /></td>
+            </tr>
+
+
+            <tr>
+                <!-- <td>
+                    <label for="telephone">Telephone Numeber</label>
+                </td> -->
+                <td><input type="text" id="telephone" placeholder="xxx-xxxxxx"/></td>
+            </tr>
+
+            <tr>
+                <!-- <td>
+                    <label for="emailId">E-Mail ID</label>
+                </td> -->
+                <td><input type="email" id="emailId" placeholder="Enter E-Mail ID"/></td>
+            </tr>
+            <tr>
+                <!-- <td> 
+                    <label for="district">District</label>District
+                </td> -->
+                <td>
+                    <select id="district">
+                        <option value="None" >Select District</option>
+                        <option value="Th">Thane</option>
+                        <option value="Mum">Mumbai</option>
+                        <option value="Ynr">Ynr</option>
+                        <option value="Pn">Pune</option>
+                        <option value="KRK">Kurukshetra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Register" />
+                </td>
+                <td>
+                    <input type="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+    <form id="bookTicketForm">
+
+    </form>
+</body>
+
+</html>

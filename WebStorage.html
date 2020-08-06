@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Storage</title>
+</head>
+<body>
+    <script>
+        // Check if the localStorage object exists
+        if(localStorage) { //just checked if our browser support local storage
+            // Store data
+            localStorage.setItem("first_name", "Peter");
+            
+            // Retrieve data
+            document.write("Hi, " + localStorage.getItem("first_name"));
+        } else {
+            alert("Sorry, your browser do not support local storage.");
+        }
+        
+        </script>
+</body>
+</html>

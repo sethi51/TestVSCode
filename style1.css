@@ -1,0 +1,20 @@
+table{
+    /* border-color: rgb(0, 3, 0);
+    border-style: solid;
+    border-width: 5px;
+ */
+ border: rgb(204, 0, 255) 5px solid ;
+}
+
+#name{
+    border: 3px solid red;
+    /* font-size: 100px; */
+    /* padding: 2px 20px 20px 30px; top right bottom left */
+    padding: 2px 20px;
+    /* margin: auto; */
+    margin: 50px;
+
+
+    /* 1. padding 2. border 3. margin */
+
+}

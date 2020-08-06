@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTI - Larsen & Toubro Infotech</title>
+    <!-- <script> //WE SHOULD WRITE SCRIPT IN OTHER FILE SO THAT ALL WEB PAGES CAN USE THIS
+        // document.write("Hello js");
+        function sayHello(){ /*THIS CAN BE CALLED BASED ON THE EVENT*/
+            // document.write("Hello js");
+            // alert("HELLO");
+            var uname = document.getElementById("username").value;
+            var welcomeMessage = document.getElementById("welcomeMessage").innerHTML="Welcome "+uname;
+            // document.write("Hello "+uname); //not prefered
+            // alert("Hello "+uname); //not prefered
+        }
+    </script> -->
+    <script src="main.js"></script>
+</head>
+<!-- <body onload="sayHello()"> -->
+<body>
+    <!-- <script>
+        document.write("Hello js");
+    </script> -->
+    User Name: <input type="text" id="username">
+    <span id="welcomeMessage" >
+        <!-- Welcome username -->
+    </span>
+    <input type="button" value="Click" onclick="sayHello()">
+    <!-- <p>This is body</p> -->
+    <script>
+        var x=16;
+        var user={fistName:"John", lastName:"Doe"};
+        var cars = ["Volvo","BMW","Audi"];
+        x="Johnny";
+        document.write(x);
+        document.write(' '+user.fistName+' '+user.lastName);
+        document.writeln(cars[0]+" "+cars[2]);
+        var val2 = null;
+        var val1;
+        document.writeln(val1);
+        document.writeln(val2);
+    </script>
+</body>
+</html>

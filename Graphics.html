@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphics</title>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+            context.moveTo(50,350);
+            context.lineTo(250,50);
+            context.stroke();
+        };
+
+    </script>
+    <!-- <script>
+        window.onload = function () {
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+            context.moveTo(50, 150);
+            context.lineTo(250, 50);
+            context.stroke();
+        };
+    </script> -->
+
+</head>
+
+<body>
+    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <audio controls="controls" src="media/birds.mp3">
+        Your browser does not support the HTML5 Audio element.
+    </audio>
+    <video controls="controls" src="media/birds.mp4">
+        Your browser does not support the HTML5 Audio element.
+    </video>
+</body>
+
+</html>
